@@ -9,5 +9,5 @@ const radiusInput = document.getElementById('radius');
         return;
       }
       const area = Math.PI * radius ** 2; // π * r^2
-      resultSpan.textContent = area.toFixed(2); // 2 знака после запятой
+      resultSpan.textContent = area.toFixed(3); // 2 знака после запятой
     });
